@@ -1,6 +1,7 @@
-import EmailHeader from './EmailHeader.js'
-import EmailBody from './EmailBody.js'
-import EmailActions from './EmailActions.js'
+import EmailHeader from './EmailHeader'
+import EmailBody from './EmailBody'
+import EmailActions from './EmailActions'
+import EmailComposer from './EmailComposer'
 
 const EmailContent = () => {
 return  <article className="email-content">
@@ -10,6 +11,7 @@ return  <article className="email-content">
 <EmailHeader />
 <EmailBody />
 <EmailActions />
+<EmailComposer />
 </article>
 }
 

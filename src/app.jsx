@@ -1,8 +1,8 @@
 import './styles/app.css'
 
-import Header from './Header.js'
-import LeftMenu from './LeftMenu.js'
-import Main from './Main.js'
+import Header from './Header'
+import LeftMenu from './LeftMenu'
+import Main from './Main'
 
 
 

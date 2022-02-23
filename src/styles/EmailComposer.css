@@ -1,0 +1,69 @@
+.email-composer {
+    display: grid;
+    grid-template: 
+    'profile body' 250px /
+    5rem 1fr;
+}
+
+.profile-img {
+    grid-area: profile;
+    display: grid;
+    justify-items: center;
+    padding-top: 10px;
+}
+
+.profile-img img {
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.write-email {
+    grid-area: body;
+    margin: 5px;
+    background-color: bisque;
+
+    display: grid;
+    grid-template-rows: 2.5rem 1fr 3rem;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+
+}
+
+.email-header {
+    border-radius: 20px;
+}
+
+.email-header img {
+    display: inline-block;
+    margin: 10px;;
+    height: 1.2rem;
+}
+
+.email-header span {
+ color: rgb(182, 181, 181)
+}
+
+.email-textbox {
+display: flex;
+align-items: flex-end;
+}
+
+.email-textbox p {
+    background-color: lightgray;
+    color: grey;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.email-options {
+}
+
+
+.email-options div {
+
+}
+
+.email-options button {
+    width: 50px;
+}
